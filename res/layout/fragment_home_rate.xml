@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="心率（bpm）"
+        android:textColor="@color/textcolor"
+        android:textSize="24sp" 
+        android:layout_marginBottom="8dp"/>
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="140dp" >
+    </lecho.lib.hellocharts.view.LineChartView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray" />
+
+    <lecho.lib.hellocharts.view.PreviewLineChartView
+        android:id="@+id/chart_preview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+    </lecho.lib.hellocharts.view.PreviewLineChartView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="今日点评："
+        android:textColor="@color/textcolor"
+        android:textSize="20sp" />
+
+</LinearLayout>

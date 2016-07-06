@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">好梦</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sleep_comment">
+        <item>您的睡眠质量很好，能跟大家分享一下吗 </item>
+        <item>您的睡眠质量一般，需要养成良好的作息规律</item>
+        <item>您的睡眠质量急需改善，以免对您的工作和学习造成不良影响</item>
+    </string-array>
+
+</resources>
